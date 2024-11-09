@@ -21,7 +21,7 @@ return {
 
       local lspconfig = require("lspconfig")
       lspconfig.ts_ls.setup({
-        capabilities = capabilities
+        capabilities = capabilities,
       })
       lspconfig.clangd.setup({
       capabilities = capabilities
